@@ -45,6 +45,7 @@ a.active {
   color: #fec503;
 }
 
+
 .img-centered {
   margin: 0 auto;
 }
@@ -60,6 +61,7 @@ a.active {
 .btn-primary {
   border-color: #fed136;
   text-transform: uppercase;
+
   font-weight: 700;
   color: #fff;
   background-color: #fed136;
@@ -110,6 +112,7 @@ fieldset[disabled] .btn-primary.active {
   border-color: #fed136;
   border-radius: 3px;
   text-transform: uppercase;
+
   font-size: 18px;
   font-weight: 700;
   color: #fff;
@@ -162,7 +165,6 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-
   color: #fed136;
 }
 
@@ -193,6 +195,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
   text-transform: uppercase;
+
   font-weight: 400;
   letter-spacing: 1px;
   color: #fff;
@@ -266,6 +269,7 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
   margin-bottom: 25px;
+
   font-size: 22px;
   line-height: 22px;
 }
@@ -273,6 +277,7 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
   margin-bottom: 25px;
   text-transform: uppercase;
+
   font-size: 50px;
   font-weight: 700;
   line-height: 50px;
@@ -286,6 +291,7 @@ header .intro-text .intro-heading {
 
   header .intro-text .intro-lead-in {
     margin-bottom: 25px;
+
     font-size: 40px;
     line-height: 40px;
   }
@@ -342,20 +348,6 @@ section h3.section-subheading {
   max-width: 400px;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  background: rgba(254,209,54,.9);
-  -webkit-transition: all ease .5s;
-  -moz-transition: all ease .5s;
-  transition: all ease .5s;
-}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
-  opacity: 1;
-}
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   position: absolute;
@@ -632,14 +624,13 @@ aside.clients img {
 }
 
 section#contact {
-  background-color: #222;
-  background-image: url(../img/map-image.png);
+
   background-position: center;
   background-repeat: no-repeat;
 }
 
 section#contact .section-heading {
-  color: #fff;
+
 }
 
 section#contact .form-group {
@@ -770,7 +761,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
   margin: 20px 0 30px;
-  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+
   font-size: 16px;
   font-style: italic;
 }

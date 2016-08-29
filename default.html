@@ -32,6 +32,21 @@
   <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
 
+    <script>
+        $FE = {id:5586};
+        $FE.email = ""; // input user unique identifier - email recommended - in these quotes (case sensitive)
+        $FE.tags = ""; // tags go in these quotes separated by commas
+        $FE.lang = "en-us"; // language + locale to be used
+        (function(d) {
+            var ca = d.createElement("script"),t;
+            ca.type = "text/javascript";
+            ca.async = true;
+            ca.src = "//tag.fanexam.com/exam.js";
+            t = d.getElementsByTagName("script")[0];
+            t.parentNode.insertBefore(ca, t);
+        })(document);
+    </script>
+
 </head>
 
 <body id="page-top" class="index">
@@ -133,60 +148,13 @@
 
 </section>
 
-<!-- Portfolio Grid Section -->
-<section id="portfolio" class="bg-light-gray">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading">Recent Projects</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-4 col-sm-6 portfolio-item">
-        <a href="http://www.kitchenerdowntown.com" target='_blank' class="portfolio-link" data-toggle="modal">
-          <div class="portfolio-hover">
-          </div>
-          <img src="/assets/dtkitchenerfull2.png" class="img-responsive" alt="">
-        </a>
-        <div class="portfolio-caption">
-          <h4>Downtown Kitchener</h4>
-          <p class="text-muted">Website Design</p>
-        </div>
-      </div>
-      <div class="col-md-4 col-sm-6 portfolio-item">
-        <a href="https://www.mylocalapp.ca" target='_blank'  class="portfolio-link" data-toggle="modal">
-          <div class="portfolio-hover">
-          </div>
-          <img src="/assets/mylocalfull.png" class="img-responsive" alt="">
-        </a>
-        <div class="portfolio-caption">
-          <h4>MyLocal</h4>
-          <p class="text-muted">Web App Development</p>
-        </div>
-      </div>
-      <div class="col-md-4 col-sm-6 portfolio-item">
-        <a href="http://www.safarirentabin.ca" target='_blank'  class="portfolio-link" data-toggle="modal">
-          <div class="portfolio-hover">
-          </div>
-          <img src="/assets/safarifull.png" class="img-responsive" alt="">
-        </a>
-        <div class="portfolio-caption">
-          <h4>Safari Rent a Bin</h4>
-          <p class="text-muted">Website Design</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
 <!-- Services Section -->
 <section id="contact">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading">Get in Touch</h2>
-        <h3 class="section-subheading text-muted">Tell me about your project and goals, or just to say hello!</h3>
+        <h3 class="section-subheading text-muted">Tell us about your project and goals</h3>
       </div>
     </div>
     <div class="row text-center">
